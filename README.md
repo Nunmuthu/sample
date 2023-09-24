@@ -1,3 +1,14 @@
+## ANgular 16 Form issue fixed
+<div *ngIf="f.controls['username']?.touched">
+      <small *ngIf="f.controls['username'].errors?.['required']">
+        Username is required
+      </small>
+      <small *ngIf="f.controls['username'].errors?.['minlength']">
+        Username should have 3 characters
+      </small>
+    </div>
+
+
 # Sample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
