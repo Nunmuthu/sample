@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+form {
+  width: 300px;
+  background-color: brown;
+  color: white;
+  margin: auto;
+  margin-top: 13%;
+}
+form small {
+  color: red;
+}
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+}
+form .form-group {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* navbar */
+nav {
+  background-color: brown;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
